@@ -23,7 +23,7 @@
 <div style="margin-top: 10px;">
     <input type="submit" value="Login">
     <br>
-    <a href="{{ route('forget_password') }}"></a>
+    <a href="{{ route('forget_password') }}">Forget password</a>
 </div>
 
 </form>
