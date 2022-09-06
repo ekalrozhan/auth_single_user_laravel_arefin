@@ -4,8 +4,8 @@
 <h3>Register</h3>
 
 
-<form action="" method="POST">
-    
+<form action="{{ route('register_submit') }}" method="POST">
+@csrf
 
 <div>Name:</div>
 
